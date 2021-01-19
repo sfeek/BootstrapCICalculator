@@ -64,7 +64,7 @@ namespace Bootstrap_CI_Calculator
                 {
                     iterations = Convert.ToInt32(txtIterations.Text);
 
-                    if (iterations < 1 || iterations > 10000) return;
+                    if (iterations < 1 || iterations > 9999) return;
 
                     iterations *= 1000;
                 }
