@@ -1,6 +1,6 @@
 ﻿namespace Bootstrap_CI_Calculator
 {
-    partial class Form1
+    partial class BootstrapCI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BootstrapCI));
             this.btnCalculate = new System.Windows.Forms.Button();
             this.txtDataA = new System.Windows.Forms.TextBox();
             this.txtCILow = new System.Windows.Forms.TextBox();

@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace Bootstrap_CI_Calculator
 {
-    public partial class Form1 : Form
+    public partial class BootstrapCI : Form
     {
-        public Form1()
+        public BootstrapCI()
         {
             InitializeComponent();
         }
