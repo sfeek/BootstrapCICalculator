@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace Bootstrap_CI_Calculator
 {
-    public partial class Form1 : Form
+    public partial class BootstrapCI : Form
     {
-        public Form1()
+        public BootstrapCI()
         {
             InitializeComponent();
         }
@@ -64,7 +64,7 @@ namespace Bootstrap_CI_Calculator
                 {
                     iterations = Convert.ToInt32(txtIterations.Text);
 
-                    if (iterations < 1 || iterations > 10000) return;
+                    if (iterations < 1 || iterations > 9999) return;
 
                     iterations *= 1000;
                 }

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bootstrap CI Calculator.exe" version="1.2.1.0" publicKeyToken="d968e5301159cb3d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="stat_Xac_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bootstrap CI Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bootstrap CI Calculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bootstrap CI Calculator.exe" size="153072">
+      <assemblyIdentity name="Bootstrap CI Calculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jIzxFaZhFYi5ttspdXzSMM1zb4066MWg21gCxNCZ0wg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bootstrap CI Calculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="stat_Xac_icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E8Q5o25ntOhKPIDLtzQ081S12GtF0cnBnuNOHM98BOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=STRUCTURETEC\shane.feek" issuerKeyHash="6b5d67bd1593f783e4494e0e96d535c30d19007c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3iFsYSn4EBG6NHLR2gcB6oKmzsBYYIc0n6JYs2egzJw=</DigestValue></Reference></SignedInfo><SignatureValue>vBU6WRA3yDlpqid3GpZHHYzrRbVXW1ehXdGWCEpct55YizNdKzuANTB+kt2kbrYM6hZOOj4RDIF731/wBNhMimqgb2K1HpkrCHTTt+KisGyNR0U8vaioTrcb5rPtMlBRIwDvjcX1EXBgVT87m7uM+7riPZLAgNGHnoDI3AXZ9O0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wmVcI/UeHzd5NdVu+FgaYSZPjs4YkK7jkMsFZg1sT+n0+cAjHXSTISDuXOYi/2b+pp+nHrI7qPbxIA7i9MMWU+m1avLFq8MV2oZy6BLiSwJ6acCIcDDOGlGXza3OhWHD9DBCLWkkJEBq9odlvAz8SE1q/hK3Rec4N9V1CAHiHdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9ccca067b358a29f34876058c0cea682ea0107dad17234ba1110f829616c21de" Description="" Url=""><as:assemblyIdentity name="Bootstrap CI Calculator.exe" version="1.2.1.0" publicKeyToken="d968e5301159cb3d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STRUCTURETEC\shane.feek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/XY+RsliOARkOC/nWlBCT8kd1cfxcL4L6ktWrmiYlBc=</DigestValue></Reference></SignedInfo><SignatureValue>nNPDm5mdXghsc8nzLG54N4JrnKnRRRhLapZV2t0atHjBJzHJya9rY5tC61o/LbTSKZtuFHc8DcPcjTkpmgtjGMXENkkAMRCKGJ99rvoyjT+Td/lgm1Py3qqMdBvFKeqh3zAj0yvtpssupioLoyZDj4BafyjsjCDd6K7xKSE/P1g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wmVcI/UeHzd5NdVu+FgaYSZPjs4YkK7jkMsFZg1sT+n0+cAjHXSTISDuXOYi/2b+pp+nHrI7qPbxIA7i9MMWU+m1avLFq8MV2oZy6BLiSwJ6acCIcDDOGlGXza3OhWHD9DBCLWkkJEBq9odlvAz8SE1q/hK3Rec4N9V1CAHiHdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQTFtkX5ATSa1P8TtXm7PZdDANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4AUwBUAFIAVQBDAFQAVQBSAEUAVABFAEMAXABzAGgAYQBuAGUALgBmAGUAZQBrMB4XDTIwMTExMTE1NDYzOVoXDTIxMTExMTIxNDYzOVowOTE3MDUGA1UEAx4uAFMAVABSAFUAQwBUAFUAUgBFAFQARQBDAFwAcwBoAGEAbgBlAC4AZgBlAGUAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwmVcI/UeHzd5NdVu+FgaYSZPjs4YkK7jkMsFZg1sT+n0+cAjHXSTISDuXOYi/2b+pp+nHrI7qPbxIA7i9MMWU+m1avLFq8MV2oZy6BLiSwJ6acCIcDDOGlGXza3OhWHD9DBCLWkkJEBq9odlvAz8SE1q/hK3Rec4N9V1CAHiHdECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAN2Jl00izIjHtJi48g4L9fv9Se3dlr6psbJNEZqR4QBbuTAe/6ld+VtXxngkXnChqwypubd/5RFxWg2NUv6gBR7waFfYizbOPIbcCDuFyFGHtIdyKTuRZyJRb5Q96tlqqekptdbzc1BhLXOvPdEfktVfObY4SnEhi9KxQznHVRHA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
